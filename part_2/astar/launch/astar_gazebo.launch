@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find astar)/launch/turtlebot3.launch">
+  </include>
+  <node name="publisher" pkg="astar" type="path_planner.py" required="true" output="screen"/>
+</launch>
