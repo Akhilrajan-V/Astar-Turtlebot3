@@ -28,7 +28,7 @@ X: 100
 Y: 900
 Theta: 0
 ```
- ***Note: Robot runs best when RPM1=30 and RPM2+40***
+ ***Note: Robot runs best when RPM1=30 and RPM2=40***
  # Simulation Output Videos
  ## A_star_gazebo1.mp4
  ```
