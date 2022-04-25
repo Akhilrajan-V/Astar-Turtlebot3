@@ -20,6 +20,7 @@ Uid: 117764314
 5. All outputs are in the outputs sub directory
 6. To run Part 1, go to part_1 directory and run the python script.
 7. Make sure the script is executable (chmod +x <python_script_name>) 
+# Part 2 Turtlebot3 Execution
 # To Launch from a single roslaunch file
 8. open a new terminal and run,
    > roslaunch astar astar_gazebo.launch
