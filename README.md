@@ -21,11 +21,13 @@ Uid:
 6. To run the Gazebo simulation, in a new terminal run: 
    >  roslaunch astar turtlebot3.launch
 7. In another terminal run the A* planner using,
+
    > rosrun astar path_planner.py
+   
 8. Please keep the initial positions as follows:
 ```
 X: 100
-Y: 900
+Y: 950
 Theta: 0
 ```
  ***Note: Robot runs best when RPM1=30 and RPM2=40***
