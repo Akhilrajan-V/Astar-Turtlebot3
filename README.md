@@ -18,18 +18,20 @@ Uid: 117764314
 3. The launch folder contains the Gazebo-Turtlebot3 launch folder
 4. The A* planner is in the nodes directory
 5. All outputs are in the outputs sub directory
+6. To run Part 1, go to part_1 directory and run the python script.
+7. Make sure the script is executable (chmod +x <python_script_name>) 
 # To Launch from a single roslaunch file
-6. open a new terminal and run,
+8. open a new terminal and run,
    > roslaunch astar astar_gazebo.launch
 # To Launch Gazebo environment and planner separately
 
-8. To run the Gazebo simulation, in a new terminal run: 
+9. To run the Gazebo simulation, in a new terminal run: 
    >  roslaunch astar turtlebot3.launch
-9. In another terminal run the A* planner using,
+10. In another terminal run the A* planner using,
 
    > rosrun astar path_planner.py
    
-8. Please keep the initial positions as follows:
+11. Please keep the initial positions as follows:
 ```
 X: 100
 Y: 950
