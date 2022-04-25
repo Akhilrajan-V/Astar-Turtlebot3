@@ -1,5 +1,8 @@
 <launch>
   <include file="$(find astar)/launch/turtlebot3.launch">
   </include>
-  <node name="publisher" pkg="astar" type="path_planner.py" required="true" output="screen"/>
+ 
+  <arg name="node_start_delay" default="1.0" />  
+  <node name="listener" pkg="astar" type="path_planner.py" launch-prefix="bash -c 'sleep $(arg node_start_delay); $0 $@' " output="screen" />
+
 </launch>
