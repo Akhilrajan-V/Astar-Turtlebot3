@@ -20,6 +20,7 @@ Uid: 117764314
 5. All outputs are in the outputs sub directory
 6. To run Part 1, go to part_1 directory and run the python script.
 7. Make sure the script is executable (chmod +x <python_script_name>) 
+![part1_output](https://github.com/Akhilrajan-V/Astar-Turtlebot3/blob/main/outputs/Part1%20outputs/Astar_graph.gif)
 # Part 2 Turtlebot3 Execution
 # To Launch from a single roslaunch file
 8. open a new terminal and run,
@@ -31,7 +32,9 @@ Uid: 117764314
 10. In another terminal run the A* planner using,
 
    > rosrun astar path_planner.py
-   
+
+![part2_output](https://github.com/Akhilrajan-V/Astar-Turtlebot3/blob/main/outputs/Part2%20outputs/astar_turtlebot_sim.gifhttps://github.com/Akhilrajan-V/Astar-Turtlebot3/blob/main/outputs/Part2%20outputs/astar_turtlebot_sim.gif)
+
 11. Please keep the initial positions as follows:
 ```
 X: 100
